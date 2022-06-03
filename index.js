@@ -13,7 +13,7 @@ function saveList(){
 if( window.localStorage.todoList){
     list.innerHTML = window.localStorage.todoList;
 }else{
-    list.innerHTML = `<li>Il faut cliquer pour supprimer les task en cours</li>`;
+    list.innerHTML = `<li> "click me twice to remove your task"</li>`;
 }
 }
 saveList()
